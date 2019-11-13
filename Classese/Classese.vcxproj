@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{09516FF7-B057-4BB0-A0EE-E5667F19D108}</ProjectGuid>
-    <RootNamespace>Structures</RootNamespace>
+    <ProjectGuid>{139B042C-DB44-460B-A51C-7561DFF0B6CC}</ProjectGuid>
+    <RootNamespace>Classese</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,14 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="player.cpp" />
-    <ClCompile Include="wallet.cpp" />
+    <ClCompile Include="piggybank.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="television.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="player.h" />
-    <ClInclude Include="student.h" />
-    <ClInclude Include="wallet.h" />
+    <ClInclude Include="piggybank.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="television.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

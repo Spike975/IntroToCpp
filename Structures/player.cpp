@@ -1,8 +1,13 @@
 #include "player.h"
 
 bool addItem(player * recepient, item gift) {
-	if (!hasItem(recepient, gift.ID) {
-
+	if (!hasItem(recepient, gift.ID)) {
+		for (int i = 0; i < 50; i++) {
+			if ((*recepient).inventory[i].value == 0) {
+				recepient->inventory[i] = gift;
+				return true;
+			}
+		}
 	}
 	return false;
 }
